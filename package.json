@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "emailjs-com": "^3.2.0"
+  }
+}
