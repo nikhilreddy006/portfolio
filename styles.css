@@ -412,14 +412,41 @@ h2 {
 }
 
 .skill-tag {
-  display: inline-block;
   padding: 0.5rem 1rem;
   background: rgba(37, 99, 235, 0.1);
-  color: var(--primary-color);
-  border-radius: 20px;
-  margin: 0.5rem;
+  color: white;
+  border-radius: 8px;
   font-size: 0.9rem;
   font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.skill-tag:hover {
+  background: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Skills Section */
+.skills {
+  max-width: 800px;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.skills p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 /* Social Links */
